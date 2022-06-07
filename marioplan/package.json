@@ -3,22 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "firebase": "^5.3.0",
-    "moment": "^2.22.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-redux": "^5.0.7",
-    "react-redux-firebase": "^2.1.6",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "redux": "^4.0.0",
-    "redux-firestore": "^0.5.7",
-    "redux-thunk": "^2.3.0"
+    "firebase": "^9.8.2",
+    "moment": "^2.29.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^5.1.1",
+    "react-redux-firebase": "^2.2.4",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "",
+    "redux": "^4.2.0",
+    "redux-firestore": "^1.0.0",
+    "redux-thunk": "^2.4.1",
+    "scripts": "^0.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
